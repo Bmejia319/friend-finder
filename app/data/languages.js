@@ -18,7 +18,7 @@ var langArray = [
 	},
 	{
 		name: 'Python',
-		photo: 'https://cdn-images-1.medium.com/max/1600/0*17G8RRzpccm_7F0U.png',
+		photo: 'https://www.python.org/static/opengraph-icon-200x200.png',
 		scores: [
 			'2',
 			'4',
@@ -66,7 +66,7 @@ var langArray = [
 	},
 	{
 		name: 'C++',
-		photo: 'http://4.bp.blogspot.com/-HTvSYzA-pO4/UgQb4Zh_u0I/AAAAAAAAEuI/XwhtogT_1tA/s1600/3+cute2.jpg',
+		photo: 'https://wiki.sei.cmu.edu/confluence/download/attachments/88482650/cplusplus?version=2&modificationDate=1527686103000&api=v2',
 		scores: [
 			'1',
 			'1',

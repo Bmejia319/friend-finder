@@ -12,7 +12,7 @@
 	<!-- Importing Roboto Font -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<!-- Reset CSS -->
-	<link rel="stylesheet" href="../assets/css/reset.css">
+	<link type="text/css" rel="stylesheet" href="../assets/css/reset.css">
 	<!-- Materialize CSS -->
 	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
 	<!-- Main CSS -->
@@ -239,7 +239,7 @@
 			<h4>Closest Language Match</h4>
 			<div class="divider"></div>
 			<h5 id="userMatch"></h5>
-			<img id="userMatchImage" class="materialboxed" width="650" src="">
+			<img id="userMatchImage" class="materialboxed" height="325" width="325" src="">
 		</div>
 		<div class="modal-footer">
 			<a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Fill Again!</a>
@@ -251,7 +251,7 @@
 			$('select').formSelect();
 
 			$('.modal').modal({
-				dismissible: false, // Modal can be dismissed by clicking outside of the modal
+				dismissible: true, // Modal can be dismissed by clicking outside of the modal
 				opacity: .5, // Opacity of modal background
 				inDuration: 300, // Transition in duration
 				outDuration: 200, // Transition out duration
