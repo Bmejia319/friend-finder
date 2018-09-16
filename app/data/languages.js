@@ -97,8 +97,8 @@ var langArray = [
 		]
 	},
 	{
-		name: 'Drake',
-		photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBvpaw_JLSzfeQ4K1AWNM8Ob1X95DS2-_6c0mq3wpSP3R7KPbQyQ',
+		name: 'C#',
+		photo: 'https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png',
 		scores: [
 			'5',
 			'4',
