@@ -7,6 +7,8 @@ var path = require("path");
 var app = express();
 var PORT = process.env.PORT || 3000;
 
+// //Public directory for css files
+// app.use(express.static(path.join(__dirname, "./app/public/")));
 
 //Middleware for parsing incoming request
 app.use(bodyParser.json());
